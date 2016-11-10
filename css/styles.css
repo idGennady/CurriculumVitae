@@ -1,0 +1,19 @@
+body, html {
+    background-color: #555;
+    overflow: hidden;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.loupe {
+    background-color:#555;
+    background:rgba(0, 0, 0, 0.25);
+    border:5px solid #ccc;
+    cursor:url(../images/blank.png), url(../images/blank.cur), none;
+    border-radius: 50%;
+}
